@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    
+}
+
+nav ul{
+    display:flex;
+    list-style-type:none;
+}
+
+
+/*skills*/
+
+.items{
+       
+    border:2px solid black;
+    border-radius: 20px;
+}
+
+.container{
+    border:2px solid black;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 200px 200px;
+    gap:40px;
+    padding:100px;
+    border-radius: 20px;
+    
+}
+.skills{
+grid-column-end:span 4;
+text-align: center;
+}
+
+
+
+.items {
+    text-align: center;
+    padding:40px;
+    box-shadow: 10px 10px 5px grey;
+   
+}
+
+/*contact me*/
+
+.contact{
+    margin: auto;
+    text-align: center;
+  }
+
+  form input{
+      padding:20px 15px ;
+      margin:10px;
+      width:50%;
+      border-radius: 15px;
+  }
+
+  form a button{
+    margin-top: 10px;
+    padding:10px 0;
+    width:15%;
+    border-radius: 15px;
+  }
